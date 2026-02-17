@@ -1,0 +1,315 @@
+/* <weight>: Use a value from 200 to 900
+ <uniquifier>: Use a unique and descriptive class name */
+
+/* .unbounded-<uniquifier> {
+  font-family: "Unbounded", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+body {
+  font-family: "Unbounded", serif;
+  line-height: 1;
+  color: #211747;
+}
+p {
+  margin: 0;
+}
+.table_wrap {
+  border: dashed red;
+  padding: 60px 20px 40px;
+  width: 3800px;
+  height: 1700px;
+}
+/* header */
+.table_head {
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+}
+.table_head::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 251px;
+  height: 120px;
+  width: 3100px;
+  background-color: #a2282b;
+  z-index: -1;
+}
+.header_item {
+  display: flex;
+  align-items: end;
+  margin-left: 50px;
+}
+p.h1 {
+  font-weight: bolder;
+  font-size: 81px;
+  color: white;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 18px;
+  text-transform: uppercase;
+}
+p.h2 {
+  font-weight: bolder;
+  font-size: 68px;
+  color: #a2282b;
+  padding-bottom: 12px;
+  padding-left: 40px;
+}
+p.h3 {
+  font-size: 37px;
+  color: white;
+  padding-left: 80px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+.peshie {
+  width: 30%;
+  display: block;
+  align-self: flex-start;
+  font-size: 35px;
+  text-align: right;
+  padding-top: 20px;
+  font-weight: bold;
+  color: #a2282b;
+}
+.peshie > span {
+  font-size: 45px;
+  text-transform: uppercase;
+  line-height: 1.3;
+}
+.pushkin {
+  height: 295px;
+  padding-bottom: 10px;
+}
+.buildings {
+  height: 300px;
+}
+p.zapis {
+  position: fixed;
+  left: 3320px;
+  color: white;
+  /* padding-top: 28px;
+  padding-bottom: 29px; */
+  padding-top: 16px;
+  padding-bottom: 17px;
+  line-height: 1.1;
+  text-align: right;
+  /* font-size: 28px; */
+  font-size: 26px;
+}
+
+/* body */
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 3800px;
+  height: 1430px;
+  /* max-height: 1530px; */
+  margin-top: 10px;
+  padding-left: 0px;
+}
+li {
+  display: flex;
+  flex-basis: 6.3em;
+  width: 32.3%;
+  padding-left: 40px;
+  padding-top: 0.7em;
+}
+li > p {
+  display: block;
+  font-weight: bold;
+}
+li > p:nth-child(1) {
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2em;
+  height: 2em;
+  background-color: #a2282b;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 20px;
+  min-width: 2em;
+  min-height: 2em;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0.3em;
+}
+li > p:nth-child(2) {
+  padding-right: 20px;
+  min-width: 8.1em;
+  line-height: 1.4;
+}
+li > p:nth-child(3) {
+  font-weight: normal;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  min-width: 8em;
+  min-height: 68px;
+}
+li > p:nth-child(3) > span {
+  font-weight: bold;
+}
+ul > li:nth-child(odd) {
+  background-color: white;
+}
+
+ul > li:nth-child(even) {
+  background-color: #d9dada;
+}
+.raspisanie {
+  width: 31.1%;
+  padding-left: 80px;
+  padding-top: 30px;
+  display: flex;
+  font-weight: 500;
+  line-height: 1.4;
+}
+.raspisanie > p > span {
+  color: #a2282b;
+}
+.qrcode > img {
+  display: block;
+  width: 260px;
+}
+.raspisanie > p {
+  flex-basis: 60%;
+}
+.qrcode {
+  flex-basis: 40%;
+  padding-left: 20px;
+}
+.daily_columns {
+  display: flex;
+  flex-direction: row;
+  width: 3800px;
+  display: none;
+}
+.daily {
+  display: block;
+  padding-top: 50px;
+  height: auto;
+  width: 33%;
+  margin-left: 2%;
+}
+.daily > li {
+  width: 100%;
+}
+
+/*  */
+/* правки высоты */
+html {
+  font-size: 23px;
+}
+/* 23px */
+li {
+  flex-basis: 4.8em;
+  padding-top: 0.3em;
+}
+/* li > p:nth-child(3) {
+  min-height:66px;
+} */
+
+/* p.h1 {
+  font-size: 46px;
+  padding-top: 34px;
+  padding-bottom: 39px;
+} */
+
+.raspisanie {
+  display: none;
+}
+
+/* li > p:nth-child(3) {
+  padding-bottom: 0.2em;
+} */
+
+/* Расширить ряд */
+/* ul > li:nth-child(12n+6){
+  flex-basis: 4.7em;
+} */
+
+/* 2ой и 3ий ряд */
+/* ul > li:nth-child(2n + 12) {
+  background-color: white;
+}
+ul > li:nth-child(2n + 13) {
+  background-color: #d9dada;
+}
+ul > li:nth-child(2n + 23) {
+  background-color: white;
+}
+ul > li:nth-child(2n + 24) {
+  background-color: #d9dada;
+} */
+
+/*  */
+/* мобильная версия */
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 42px;
+  }
+  .table_wrap {
+    width: 2400px;
+    height: auto;
+  }
+  .table_head::after {
+    width: 2400px;
+    height: 122px;
+  }
+  .header_item > div {
+    align-self: flex-start;
+  }
+  p.h1 {
+    font-size: 72px;
+  }
+  p.h2 {
+    font-size: 77px;
+    padding-top: 15px;
+  }
+  p.h3 {
+    position: absolute;
+    padding-top: 46px;
+    left: 1306px;
+  }
+  .pushkin {
+    align-self: flex-start;
+    height: 170px;
+  }
+  .raspisanie {
+    display: none;
+  }
+  ul {
+    max-width: 2400px;
+    height: auto;
+  }
+  li {
+    flex-basis: 3.8em !important;
+    width: 98%;
+  }
+  p.zapis {
+    display: none;
+  }
+  .peshie {
+    display: none;
+  }
+  .daily_columns {
+    display: none;
+  }
+  ul > li:nth-child(odd) {
+    background-color: white !important;
+  }
+
+  ul > li:nth-child(even) {
+    background-color: #d9dada !important;
+  }
+}
