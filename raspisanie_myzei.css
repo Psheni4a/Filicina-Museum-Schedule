@@ -212,7 +212,7 @@ html {
 }
 /* 23px */
 li {
-  flex-basis: 4.4em;
+  flex-basis: 4.8em;
   padding-top: 0.3em;
 }
 /* li > p:nth-child(3) {
@@ -239,7 +239,7 @@ p.h1 {
 } */
 
 /* 2ой и 3ий ряд */
-ul > li:nth-child(2n + 14) {
+/* ul > li:nth-child(2n + 14) {
   background-color: white;
 }
 ul > li:nth-child(2n + 15) {
@@ -250,7 +250,7 @@ ul > li:nth-child(2n + 27) {
 }
 ul > li:nth-child(2n + 28) {
   background-color: #d9dada;
-}
+} */
 
 /*  */
 /* мобильная версия */
