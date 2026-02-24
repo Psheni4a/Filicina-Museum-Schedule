@@ -212,18 +212,18 @@ html {
 }
 /* 23px */
 li {
-  flex-basis: 4.8em;
+  flex-basis: 4.4em;
   padding-top: 0.3em;
 }
 /* li > p:nth-child(3) {
   min-height:66px;
 } */
 
-/* p.h1 {
+p.h1 {
   font-size: 46px;
   padding-top: 34px;
   padding-bottom: 39px;
-} */
+}
 
 .raspisanie {
   display: none;
@@ -239,18 +239,18 @@ li {
 } */
 
 /* 2ой и 3ий ряд */
-/* ul > li:nth-child(2n + 12) {
+ul > li:nth-child(2n + 14) {
   background-color: white;
 }
-ul > li:nth-child(2n + 13) {
+ul > li:nth-child(2n + 15) {
   background-color: #d9dada;
 }
-ul > li:nth-child(2n + 23) {
+ul > li:nth-child(2n + 27) {
   background-color: white;
 }
-ul > li:nth-child(2n + 24) {
+ul > li:nth-child(2n + 28) {
   background-color: #d9dada;
-} */
+}
 
 /*  */
 /* мобильная версия */
